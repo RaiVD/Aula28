@@ -1,5 +1,5 @@
-# Aula28 
-Exercicio - 1
+# Aula28 - 1 Exercicio 
+
 1 - Criei a interface Lampada;
 2 - criei duas classes filhas (Incandescente e Flourescente)
 3 - Criei uma classe mãe(Fabrica Lampada)
@@ -16,3 +16,18 @@ Exercicio - 1
 14 - Na minha Main instanciei minha classe FabricaLampada
 15 - Instanciei tambem os metodos que eu queria exibir para meu usuario.
 
+# Aula28 - 2 Exercicio 
+
+1 -Criei a interface Tributaveis
+2 -criei tres classes filhas (ContaPoupança, ContaCorrente e SeguroDeVida)
+3 -Criei uma classe mãe(Conta)
+4 -Implementei nas minha classes filhar a interface Tributaveis
+5 -Extendi nas minha classes filhas a classe mãe Conta
+6 - Nas minhas classes filhas implementei os metodos da interfece e coloquei um retorno (tributosContaSeguro(); tributosContaCorrente(); tributosContaPoupanca())
+7 - Na minha classe conta criei os atributos SaldoSeguro, SaldoCorrente e SaldoPoupança
+8 - Passei eles pelo construtor
+9 - Criei todos os gets da minha clase Conta
+10 - Criei os metodos getSaldo e getSaldoConta
+11 - O metodo getSaldo soma todos os saldos da conta
+12 - O metodo getSaldoConta Printa todos rendimentos individuais e o saldo total com e sem rendimento
+13 - Criei por fim a classe Main, instanciei a classe conta e chamei meu metodo getSaldoConta.
